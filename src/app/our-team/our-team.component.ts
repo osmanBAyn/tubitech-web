@@ -9,5 +9,5 @@ import { CommonModule } from '@angular/common';
   styleUrl: './our-team.component.css'
 })
 export class OurTeamComponent {
-
+  k : Array<number> = [1,2,3,4,5,6,7,8,9];
 }

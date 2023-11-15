@@ -1,6 +1,7 @@
 import { Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { OurTeamComponent } from './our-team/our-team.component';
+import { ContactComponent } from './contact/contact.component';
 
 export const routes: Routes = [
     {
@@ -19,5 +20,9 @@ export const routes: Routes = [
     {
         path:"social",
         loadChildren:()=>import('./social/social.module').then(m=>m.SocialModule)
+    },
+    {
+        path:"contact",
+        component:ContactComponent
     }
 ];
