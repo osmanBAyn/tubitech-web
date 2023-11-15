@@ -1,0 +1,25 @@
+#cont{
+    background-color: white;
+}
+#grow-1{
+    flex-grow: 5;
+}
+#grow-2{
+    flex-grow: 1;
+}
+
+.hoverPP{
+    transition: ease-in-out 200ms;
+    background-image: linear-gradient(#d99a5a, #d99a5a);
+    background-size: 0% 0.1em;
+    background-position-y: 100%;
+    background-position-x: 0%;
+    background-repeat: no-repeat;
+    transition: background-size 0.2s ease-in-out;
+    cursor: pointer;
+}
+.hoverPP:hover,
+.hoverPP:focus,
+.hoverPP:active{
+    background-size: 100% 0.1em;
+}
